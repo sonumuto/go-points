@@ -14,5 +14,5 @@ func (p PointXYZ) Abs() float64 {
 }
 
 func (p PointXYZ) String() string {
-	return fmt.Sprintf("(%.2f, %.2f, %.2f)", p.X, p.Y, p.Z)
+	return fmt.Sprintf("(%.2f, %.2f, %.2f) ", p.X, p.Y, p.Z)
 }
